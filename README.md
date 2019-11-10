@@ -10,3 +10,4 @@ BDD
 
 | B                | D                     |  D                  |
 |--------------------|----------------------|---------------------|
+| Click on the website link| Search for images | Images appear based on your search|
