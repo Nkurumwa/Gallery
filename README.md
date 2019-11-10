@@ -31,5 +31,8 @@ BDD
 - Js
 - Css
 
+### Contact me incase of any questions
+  nkurumwa51@gmail.com
+
 ## License
 [MIT copyright 2019] (Ishmael Nkurumwa)
