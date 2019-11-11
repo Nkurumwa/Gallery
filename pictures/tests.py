@@ -3,7 +3,7 @@ from .models import Location, Category, Image
 # Create your tests here.
 class LocationTestClass(TestCase):
     def setUp(self):
-        self.location = Location(location_name='Paris')
+        self.location = Location(location_name='Berlin')
         self.location.save()
 
     def tearDown(self):
@@ -19,7 +19,7 @@ class LocationTestClass(TestCase):
         self.assertTrue(len(locations)>0)
 
     def test_update_location(self):
-        new_location_name = 'India'
+        new_location_name = 'US'
         self.location.update_location(self.location.id,new_location_name)
         updated_location = Location.objects.filter(location_name='India')
         self.assertTrue(len(updated_location)>0)
